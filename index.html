@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
-  <meta charset="UTF-8">
-  <title>🎮 Gaming Panel</title>
+  <meta charset="UTF-8" />
+  <title>🎮 Gaming Panel </title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
@@ -80,24 +80,24 @@
 </head>
 <body>
 
-  <h1>_🎯 لیست پنل‌های گیمینگ_</h1>
+  <h1>🎯 لیست پنل‌های گیمینگ</h1>
   <h2>shayan878@</h2>
   <div id="panel-container"></div>
 
   <script>
     const panels = [
       {
-        title: "Dns panel",
+        title: "dns",
         file: "panel1.html",
-        description: "ورود به پنل dns "
+        description: "ورود به پنل dns"
       },
       {
-        title: "config Settings🚀",
+        title: "⚙️  ساخت کانفیگ تنظیمات",
         file: "panel2.html",
-        description: "پنل ساخت کانفیگ "
+        description: "ساخت کانفیگ با درصد دل خواه"
       },
       {
-        title: "🛡️ Admin Tools",
+        title: "🛡️ ابزار مدیریت",
         file: "panel3.html",
         description: "پنل مخصوص کنترل و مدیریت بازی"
       }
@@ -111,7 +111,7 @@
       card.innerHTML = `
         <h3>${p.title}</h3>
         <p>${p.description}</p>
-        <a href="panels/${p.file}" target="_blank">ورود به پنل</a>
+        <a href="${p.file}" target="_blank" rel="noopener noreferrer">ورود به پنل</a>
       `;
       container.appendChild(card);
     });
